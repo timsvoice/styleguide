@@ -1,0 +1,166 @@
+/* =================
+  Global
+==================*/
+
+body.styleguide > * {
+}
+
+body.styleguide {
+
+  /* =================
+    Variables
+  ==================*/
+
+
+  /* =================
+    Structure
+  ==================*/
+
+  .intro {
+    margin-top: 1rem;
+  }
+
+  .title {
+    display: inline-block;
+  }
+
+  .branding {
+
+  }
+  
+  .img {
+
+  }
+
+  .color-block-group {
+    list-style: none;
+  }
+
+  .color-block {
+    height: 5rem;
+  }
+
+  .design-pattern-group {
+    margin-top: 1rem;
+  }
+
+  /* =================
+    Typography
+  ==================*/
+  
+  h1, h2, h3, h4, h5 {
+    margin: 0;
+    color: black;
+  }
+
+  p {
+    margin: 0;
+    a {
+    }
+  }
+
+  a {
+  }
+  
+  .header {
+    font-size: 3rem;
+  }
+
+  .subheader {
+    font-size: 2rem;
+  }
+
+  .meta {
+    font-size: 0.8rem;
+  }
+
+  .body {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .title {
+    padding-top: 0rem;
+    margin: 0;
+    font-size: 3.5rem;
+  }
+
+  .header {
+
+  }
+
+  .subheader {
+
+  }
+
+  .meta {
+
+  }
+
+  .body {
+
+  }  
+
+  /* =================
+    UI
+  ==================*/
+
+  .iconography {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    i {
+      font-size: 2rem;
+      color: black;
+    }
+  }
+
+  .secondary.button {
+    @extend .button;
+  }
+  
+  .button {
+  }
+
+  .primary.button {
+
+  }
+
+  .secondary.button {
+  }
+
+  .branding-image {
+    display: inline-block;
+    float: left;
+  }
+  
+  /*==================
+    Elements
+  ==================*/
+  
+  .photography {
+    margin-bottom: 1rem;
+    .photography-image {
+
+    }
+  }
+
+  .color-block {
+    border: 0.25rem solid white;
+
+    &.primary {
+    }
+    &.secondary {
+    }
+    &.third {
+    }
+    &.fourth {
+    }
+  }
+
+
+  /*==================
+    SVG
+  ==================*/
+
+
+}//  body.styleguide
